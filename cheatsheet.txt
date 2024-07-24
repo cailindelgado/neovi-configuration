@@ -1,0 +1,43 @@
+<C-a> = ctrl+a
+<leader> = " "
+<Tab> = tab btn
+<CR> = carrage return
+
+-- vim cmd to look at mappings --
+:nmap = look at mapings in normal mode
+:vmap = look at mapings in visual mode
+
+-- peoject movement --
+<leader>e = return to project/open tree
+<leader>ff = search project for files
+<leader>ps = initiates Grep > cmd
+<leader>gs = vim.cmd.Git 
+
+-- undo view stuff --
+<leader>u = view undo tree
+
+-- Commenting Stuff --
+<leader>/ = line comment
+<leader>b/ = block comment
+<leader>/0 = add comment on line above
+<leader>/o = add comment on line below
+<leader>// = add comment to end of line
+
+-- toggle line numbers --
+<leader>n = :set numbers! <CR>
+
+-- changing buffers --
+<leader>b = view open buffers
+<leader>d = delete buffer
+
+-- Swapping windows -- 
+<leader>w = ctrl+ww
+
+-- Github fugitive stuff --
+<leader>gs = vim.cmd.Git
+
+-- telescope stuff --
+<leader>ff = builtin.find_files
+<leader>cs = builtin.colorscheme
+<C-f> = search git files for file
+<leader>ps = "Grep > "   ????

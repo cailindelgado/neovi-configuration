@@ -1,2 +1,2 @@
-# neovi-configureation
-# neovi-configureation
+# neovi-configuration
+My config for nvim
